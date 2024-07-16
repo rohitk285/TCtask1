@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.features{
+    @apply text-2xl font-bold mb-2 text-center;
+}
+.features-text{
+    @apply text-center;
+}
+.card{
+    @apply bg-white hover:bg-blue-900 p-6 rounded-lg border-2 border-dotted 
+    border-black cursor-pointer text-black hover:text-white flex 
+    flex-col justify-center items-center;
+}
+.nav-text{
+    @apply text-black hover:text-blue-800 font-medium;
+}
+.toggle1{
+    @apply bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg font-semibold;
+}
+.toggle2{
+    @apply bg-gray-300 hover:bg-gray-400 text-green-700 px-4 py-2 rounded-lg font-semibold;
+}
+.about{
+    @apply list-disc pl-5 space-y-12 text-xl font-mono font-semibold;
+}
