@@ -32,6 +32,12 @@
     http://localhost:5173
     ```
 
+3. To build the project:
+
+    ```sh
+    npm run build
+    ```
+
 ## Notes
 
 1. Install NodeJS before running the code.
